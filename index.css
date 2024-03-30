@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    height: 1000px;
+}
+
+
+
+                                 /* ***************************Navbar***************************** */
+.navbar{
+background-color: gray;
+height: 100px;
+position: sticky;
+top: 0px;
+
+
+}
+.navbar ul{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.nav-li{
+    font-size: 20px;
+    font-weight:100;
+    color: black;
+
+}
+#nav-h{
+font-weight: bolder;
+color: black;
+
+font-size: 20px;
+}
+/* *************************************************************search-word************************************ */
+#search-word{
+    margin-top: 5%;
+
+}
+.search-word-p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.search-icon{
+    height: 40px;
+    width: 20px;
+}
+.cancel-icon{
+    height: 40px;
+    width: 20px;
+}
+.input{
+    margin-top: 5%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.search{
+    height: 60px;
+    width: 400px;
+    background-color: rgb(221, 214, 214);
+    border: 0px solid rgb(221, 214, 214);
+    outline: 0px;
+    text-align: center;
+    
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 214, 214);
+    border: 0px;
+    height: 60px;
+}
+.icon-search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 214, 214);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 60px;
+    
+}
+.icon-cross-div{
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(221, 214, 214);
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+height: 60px;
+
+}
+/* ****************************************************word************************************* */
+
+section#word{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+    
+    
+}
+section#synonym{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+    
+    
+}
+div.word{
+    min-height: 300px;
+    width: 440px;
+    background-color: rgb(178, 178, 200);
+    border-radius: 20px;
+    
+}
+div.synonym{
+    min-height: 300px;
+    width: 440px;
+    background-color: rgb(182, 206, 199);
+    border-radius: 20px;
+    
+}
+div.meaning-div{
+    margin-top: 5%;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+div.synonym-div{
+    margin-top: 5%;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+.main-word{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 300;
+}
+.main-synonym{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 300;
+}
